@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <link rel="stylesheet" href="jacbob.css">  
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>No Risk-No Rich</title>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      padding: 20px 0;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 20px;
+      font-size: 1.5rem;
+      text-decoration: none;
+    }
+
+    .hero {
+      background: url('https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg') no-repeat center center/cover;
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+    }
+
+    .hero-text {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 40px;
+      border-radius: 15px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #ff4b2b;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #ff1e00;
+    }
+
+    .content, .freelancers {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .freelancers {
+      background: #f4f4f4;
+      border-radius: 10px;
+    }
+
+    .freelancer {
+      margin-bottom: 20px;
+    }
+
+    .freelancer h3 {
+      color: #28a745;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 30px;
+    }
+
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 10px;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .hero {
+        height: 60vh;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>No Risk-No Rich</h1>
+      <nav>
+        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Empowering the Average Freelancer</h2>
+      <p>Tips, motivation, and real talk about money and freelancing.</p>
+      <a href="#learn-more" class="btn">Learn More</a>
+    </div>
+  </section>
+
+  <section id="learn-more" class="content">
+    <h2>Why Risk</h2>
+    <p>
+      Freelancing isn’t always glam. It’s hustle, learning, and figuring things out. At Money-Lover, we share insights and tips from real freelancers doing real work.
+    </p>
+  </section>
+
+  <section class="freelancers">
+    <h2>Meet the Freelancers</h2>
+
+    <div class="freelancer">
+      <h3>Web Developer</h3>
+      <p>Builds websites, e-commerce stores, and apps using HTML, CSS, JS, and more.</p>
+    </div>
+
+    <div class="freelancer">
+      <h3>Graphic Designer</h3>
+      <p>Creates logos, branding kits, and visuals that pop across digital and print media.</p>
+    </div>
+
+    <div class="freelancer">
+      <h3>Content Writer</h3>
+      <p>Writes blogs, articles, and social content that attracts and converts readers.</p>
+    </div>
+
+    <div class="freelancer">
+      <h3>Video Editor</h3>
+      <p>Transforms raw footage into powerful stories and scroll-stopping content.</p>
+    </div>
+
+    <div class="freelancer">
+      <h3>Digital Marketer</h3>
+      <p>Runs campaigns, grows brands, and delivers traffic with strategic thinking.</p>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <img src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg" alt="Freelancer Laptop">
+    <img src="https://images.pexels.com/photos/4050300/pexels-photo-4050300.jpeg" alt="Desk Setup">
+    <img src="https://images.pexels.com/photos/4348404/pexels-photo-4348404.jpeg" alt="Creative Freelancer">
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Yousuf. Built for freelancers, by freelancers.</p>
+  </footer>
+</body>
+</html>
